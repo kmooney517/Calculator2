@@ -1,0 +1,46 @@
+body {
+  margin: 20px;
+}
+
+div {
+  float: left;
+  color: white;
+  font-size: 30px;
+}
+
+.row div.button{
+  display: inline-block;
+  background-color: #68B25B;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.row1 div.answer{
+  background-color: #85C07B;
+  width: 302px;
+}
+
+
+div.button.divide{
+  background-color: #85C07B;
+  color: black;
+}
+
+div.button.multiply{
+  background-color: #85C07B;
+  color: black;
+}
+
+div.button.subtract{
+  background-color: #85C07B;
+  color: black;
+}
+
+div.button.add{
+  background-color: #85C07B;
+  color: black;
+}
