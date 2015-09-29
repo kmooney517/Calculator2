@@ -21,7 +21,7 @@ body {
 }
 
 /* Formatting the other colored squares */
-.row1 button.answer{
+.row1 div{
   background-color: #85C07B;
   width: 300px;
 }
