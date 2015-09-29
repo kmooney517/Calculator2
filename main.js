@@ -32,51 +32,36 @@ var multiply = document.querySelector('#multiply');
 var divide = document.querySelector('#divide');
 var equal = document.querySelector('#equal');
 
-//Declaration of Variables
-var clr, num0, num1, num2, num3, num4, num5, num6, 
- num7, num8, num9, dec, add, sub, mult, div, equ;
-
-
 //Response to being clicked
 var display0 = function(){
-  num0 = Number(zero.textContent);
-  answer.textContent = num0;
+  answer.textContent = answer.textContent + '0';
 };
 var display1 = function (){
-  num1 = Number(one.textContent);
-  answer.textContent = num1;
+  answer.textContent = answer.textContent + '1';
 };
 var display2 = function(){
-  num2 = Number(two.textContent);
-  answer.textContent = num2;
+  answer.textContent = answer.textContent + '2';
 };
 var display3 = function (){
-  num3 = Number(three.textContent);
-  answer.textContent = num3;
+  answer.textContent = answer.textContent +'3';
 };
-var display4 = function(){
-  num4 = Number(four.textContent);
-  answer.textContent = num4;
+var display4 = function(){  
+  answer.textContent = answer.textContent + '4';
 };
 var display5 = function (){
-  num5 = Number(five.textContent);
-  answer.textContent = num5;
+  answer.textContent = answer.textContent + '5';
 };
 var display6 = function(){
-  num6 = Number(six.textContent);
-  answer.textContent = num6;
+  answer.textContent = answer.textContent + '6';
 };
 var display7 = function (){
-  num7 = Number(seven.textContent);
-  answer.textContent = num7;
+  answer.textContent = answer.textContent + '7';
 };
 var display8 = function(){
-  num8 = Number(eight.textContent);
-  answer.textContent = num8;
+  answer.textContent = answer.textContent + '8';
 };
 var display9 = function (){
-  num9 = Number(nine.textContent);
-  answer.textContent = num9;
+  answer.textContent = answer.textContent + '9';
 };
 var displayDec = function(){
   dec = decimal.textContent;
@@ -121,6 +106,5 @@ subtract.addEventListener('click', displaySub);
 multiply.addEventListener('click', displayMult);
 divide.addEventListener('click', displayDiv);
 equal.addEventListener('click', displayEqu);
-
 
 
