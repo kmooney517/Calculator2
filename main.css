@@ -1,5 +1,6 @@
 body {
   margin: 20px;
+  width: 500px
 }
 
 div {
@@ -8,7 +9,12 @@ div {
   font-size: 30px;
 }
 
-.row div.button{
+.button:hover{
+  background-color: #85C07B;
+  color: white;
+}
+
+.button{
   display: inline-block;
   background-color: #68B25B;
   text-align: center;
@@ -25,22 +31,22 @@ div {
 }
 
 
-div.button.divide{
+.divide{
   background-color: #85C07B;
   color: black;
 }
 
-div.button.multiply{
+.multiply{
   background-color: #85C07B;
   color: black;
 }
 
-div.button.subtract{
+.subtract{
   background-color: #85C07B;
   color: black;
 }
 
-div.button.add{
+.add{
   background-color: #85C07B;
   color: black;
 }
